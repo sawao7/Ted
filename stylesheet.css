@@ -1,11 +1,96 @@
 body{
-  height: 1000px;
+  height: 100px;
   background-color: black;
   color: white;
   text-align: center;
+  /* background-image:url("https://英会話ラボ.com/wp-content/uploads/2018/06/TED-Talks.jpg"); */
+  background-image:url("https://i.pinimg.com/originals/7b/0e/95/7b0e951d417702e50d01c6259b690ad9.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+header{
+  padding:10px;
+  border-bottom: 2px solid white;
 }
 
 header h1{
+  font-weight:bold;
   font-size: 40px;
   text-shadow: 2px 2px 3px rgb(255, 0, 215);
+}
+
+div{
+  /* padding: 10px; */
+  /* display:inline-block; */
+}
+
+.title_1{
+  /* weight:300px; */
+  margin:0px 45%;
+  margin-top:10px;
+}
+.title_2{
+  /* weight:300px; */
+  margin:0px 43%;
+  margin-top:10px;
+}
+
+.title h1{
+  color: red;
+  border:3px solid red;
+  font-weight:bold;
+  border-radius: 10px;
+  text-shadow    :
+     2px  2px 1px white,
+    -2px  2px 1px white,
+     2px -2px 1px white,
+    -2px -2px 1px white,
+     2px  0px 1px white,
+     0px  2px 1px white,
+    -2px  0px 1px white,
+     0px -2px 1px white;        /* 文字の影 */
+}
+
+.title:hover{
+  cursor: pointer;
+  opacity:0.8;
+}
+
+.movie{
+  opacity:1;
+  height:200px;
+  margin:0px 10px;
+}
+
+.OneContents{
+  display:inline-block;
+  border:1px solid rgb(255, 29, 29);
+  opacity:1;
+  padding:0px;
+  margin:10px;
+  /* background-color:white; */
+  background-image:url("https://ibuki.yoga/wp-content/uploads/2020/07/2F17549F-6342-426C-A38C-FD99D11C2D6E-1140x631.jpeg");
+  background-size:contain;
+}
+.OneContents:hover{
+  opacity:0.8;
+  cursor: pointer;
+}
+.OneContents h1{
+  margin:10px;
+  opacity:0.8;
+  /* color: red; */
+  color:white;
+  font-weight:bold;
+  font-size:100%;
+  text-shadow    :
+     2px  2px 1px red,
+    -2px  2px 1px red,
+     2px -2px 1px red,
+    -2px -2px 1px red,
+     2px  0px 1px red,
+     0px  2px 1px red,
+    -2px  0px 1px red,
+     0px -2px 1px red;        /* 文字の影 */
 }
