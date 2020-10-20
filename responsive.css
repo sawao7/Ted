@@ -1,12 +1,17 @@
 @media (max-width: 1000px){
   .title_1{
     /* weight:300px; */
-    margin:0px 40%;
-    margin-top:10px;
+    margin:20px 40%;
+    /* margin-top:20px; */
+
   }
   .title_2{
     /* weight:300px; */
-    margin:0px 34%;
-    margin-top:10px;
+    margin:20px 34%;
+    /* margin-top:20px; */
+  }
+  .OneContents{
+    margin:10px 10px;
+    margin-bottom:20px;
   }
 }
