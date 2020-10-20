@@ -14,4 +14,26 @@
     margin:10px 10px;
     margin-bottom:20px;
   }
+  .movie{
+    z-index:10;
+  }
+
+  .slick-prev{
+    margin-top:30%;
+    z-index:100;
+    /* left: 1%; */
+  }
+  .slick-next
+  {
+    z-index:100;
+    /* right: 5%; */
+    margin-top:30%;
+  }
+  .slick-prev:before,
+  .slick-next:before
+  {
+    font-size:40px;
+    color: red;
+  }
+
 }
