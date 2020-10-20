@@ -24,19 +24,55 @@ div{
   /* padding: 10px; */
   /* display:inline-block; */
 }
+.slick-slide iframe {
+	width:711px;
+  height:400px;
+}
+.slick-dots li button:before {
+    color: #ffffff;
+}
+.slick-dots li.slick-active button:before {
+    color: #ff6347;
+}
+.slick-prev
+{
+  z-index:50;
+  left: 1%;
+}
+.slick-next
+{
+  z-index:50;
+  right: 5%;
+}
+.slick-prev:before,
+.slick-next:before
+{
+  font-size:60px;
+  color: red;
+}
+
+
 
 .title_1{
   /* weight:300px; */
   margin:0px 45%;
-  margin-top:10px;
+  /* margin-top:20px; */
+  /* margin-top:10px; */
 }
 .title_2{
   /* weight:300px; */
   margin:0px 43%;
-  margin-top:10px;
+  /* margin-top:10px; */
+}
+.title{
+  /* margin:40px; */
+  margin-top:20px;
+  margin-bottom:20px;
 }
 
+
 .title h1{
+  background-color:rgb(59, 59, 59);
   color: red;
   border:3px solid red;
   font-weight:bold;
@@ -58,9 +94,14 @@ div{
 }
 
 .movie{
+  /* margin-top:10px; */
   opacity:1;
   height:200px;
-  margin:0px 10px;
+  margin:10px 10px;
+  margin-bottom:0px;
+}
+.main_m{
+  /* height:px; */
 }
 
 .OneContents{
@@ -69,6 +110,8 @@ div{
   opacity:1;
   padding:0px;
   margin:10px;
+  margin-top:0px;
+  margin-bottom:0px;
   /* background-color:white; */
   background-image:url("https://ibuki.yoga/wp-content/uploads/2020/07/2F17549F-6342-426C-A38C-FD99D11C2D6E-1140x631.jpeg");
   background-size:contain;
@@ -78,10 +121,15 @@ div{
   cursor: pointer;
 }
 .OneContents h1{
-  margin:10px;
-  opacity:0.8;
+  border-radius: 10px;
+  /* display:inline-block; */
+  margin-left:12.5%;
+  width:75%;
+
+  /* margin:10px; */
+  /* opacity:0.8; */
   /* color: red; */
-  color:white;
+  color:rgb(103, 103, 103);
   font-weight:bold;
   font-size:100%;
   text-shadow    :
@@ -93,4 +141,14 @@ div{
      0px  2px 1px red,
     -2px  0px 1px red,
      0px -2px 1px red;        /* 文字の影 */
+  border: 1px solid black;
+  background-color:rgb(52, 52, 52);
 }
+
+/* button{
+  height:2px;
+  padding:0;
+  margin:0;
+  background-color: none;
+  border:none;
+} */
